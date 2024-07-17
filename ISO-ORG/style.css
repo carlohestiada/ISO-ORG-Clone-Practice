@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Upper Nav Section */
+.upper-nav {
+    background-color: #343a40;
+    height: 60px;
+}
+
+.upper-nav-content {
+    display: flex;
+    margin-left: 1500px;
+}
+
+.upper-nav-dropdown {
+    padding: 10px;
+}
+
+.upper-nav-desc {
+    text-decoration: none;
+    color: #adb5bd;
+    margin: 20px; 
+}
+
+.upper-nav-desc:hover {
+    color: #fcfcfd;
+    text-decoration: none;
+}
+/* End Upper Nav Section */
+
+/* Nav Section */
+.navigation-section {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    padding: 10px;
+    margin-left: 160px;
+}
+
+.nav-left .main-nav {
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.main-nav .nav-desc {
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.main-nav .nav-desc:hover {
+    color: #e3000f;
+    text-decoration: none;
+}
+
+.image-nav img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.nav-right {
+    display: flex;
+    padding: 20px;
+    margin-right: 160px;
+}
+
+.nav-search {
+    margin-right: 20px;
+}
+
+.nav-search input[type=text] {
+    padding: 8px;
+    width: 350px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.nav-search input[type=text]:focus {
+    border: 1px solid rgb(230, 27, 27);
+    box-shadow: 1px 1px #e3000f;
+}
+
+.nav-right .nav-search-icon img {
+    height: 25px;
+    width: 25px;
+    padding: 0px;
+}
+/* End Nav Section */
+
+/* Bottom Nav Section */
+.bottom-link {
+    padding: 1px;
+    background-color: #e3000f;
+}
+
+.bottom-link a {
+    color: #adb5bd;
+    margin-left: 180px;
+}
+
+.bottom-link a:hover {
+    color: #f8f9fa;
+}
+
+.bottom-link .arrow-link {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+/* Bottom Nav Section */
+
+/* Landing Page Section */
+section .landing-page {
+    padding: 30px;
+    margin: 30px;
+}
+
+.landing-desc {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.landing-tag .h1-ISO {
+    font-size: 60px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.p-ISO {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.landing-tag-img {
+    margin-right: 100px;
+}
+/* End Landing Page Section */
+
+/* ISO Standards Section */
+.iso-bg::before {
+    content: '';
+    overflow: hidden;
+    position: absolute;
+    bottom: 23%;
+    left: -250vw;
+    width: 600vw;
+    height: 600vw;
+    background: #e4e2e1;
+    border-radius: 48% 52% 52% 48% / 48% 52% 48% 52%;
+    z-index: -1;
+}
+
+.iso-standards {
+    height: 25vh;
+    margin-top: 200px
+}
+
+.card-standards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.card-one {
+    gap: 1px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    filter: drop-shadow(.3rem .3rem .3rem #949191);
+    width: 510px;
+    height: 10em;
+    padding: 1%;  
+}
+
+.card-one h2 {
+    margin-left: 70px;
+}
+
+.card-one p {
+    margin-left: 50px;
+    line-height: 20px;
+}
+
+.card-one p span {
+    margin-left: 100px;
+}
+
+.p-span {
+    margin-left: 100px;
+}
+
+.card-two {
+    gap: 1px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    filter: drop-shadow(.3rem .3rem .3rem #949191);
+    width: 510px;
+    height: 10em;
+    padding: 1%;
+}
+
+.card-two p span {
+    margin-left: 120px;
+    padding:  0 10px;
+}
+
+span {
+    color: #e3000f;
+}
+
+.iso-card {
+    height: 30vh;
+}
+/* End ISO Standards Section */
